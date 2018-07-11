@@ -1,12 +1,11 @@
 <?php
 
 
-namespace Faker\Provider;
-use Faker\Generator;
+namespace RicLep\Faker;
 use Faker\Provider\Base;
 
 
-class LoremFlickrFaker extends Base
+class LoremFlickrFakerProvider extends Base
 {
 	/**
 	 * Generate the URL that will return a random image
