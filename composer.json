@@ -1,0 +1,30 @@
+{
+	"name": "riclep/lorem-flickr-faker",
+	"description": "Lorem Flickr provider for Faker",
+	"keywords": [
+		"faker",
+		"placeholder",
+		"provider",
+		"images"
+	],
+	"license": "MIT",
+	"type": "library",
+	"authors": [
+		{
+			"name": "Richard Le Poidevin",
+			"email": "ric@wearebwi.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {
+		"fzaninotto/faker": "~1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"RicLeP\\Faker\\": "."
+		}
+	}
+}
