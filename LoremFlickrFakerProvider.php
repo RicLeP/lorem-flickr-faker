@@ -26,7 +26,7 @@ class LoremFlickrFakerProvider extends Base
 	 */
 	public static function loremFlickrImageUrl($width = 640, $height = 480, $category = null, $all = false, $lock = true, $randomize = true)
 	{
-		$baseUrl = "https://loremflickr.com";
+		$baseUrl = "https://loremflickr.com/";
 		$url = "{$width}/{$height}/";
 
 
