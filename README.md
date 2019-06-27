@@ -3,7 +3,7 @@ Lorem Flickr Provider
 
 ## Install
 
-Install the PlaceholdItProvider adding `riclep/lorem-flickr-faker` to your composer.json or from CLI:
+Add `riclep/lorem-flickr-faker` to your composer.json or from CLI:
 
 ```
 $ composer require riclep/lorem-flickr-faker
